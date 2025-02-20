@@ -1,4 +1,4 @@
-let ws = new WebSocket("wss://socket-server-template-bixo.onrender.com:10000");
+let ws = new WebSocket("https://socket-server-template-bixo.onrender.com:10000");
 
 
 let controllTD = document.querySelector('.controllTD') ;
