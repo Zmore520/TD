@@ -1,5 +1,6 @@
 let ws = new WebSocket("wss://socket-server-template-6g7f.onrender.com/:443");
 
+
 let controllTD = document.querySelector('.controllTD') ;
 controllTD.addEventListener('input', (event) => {
   ws.send(JSON.stringify({ 'slider1': controllTD.value / 100 }));
